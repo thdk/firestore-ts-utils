@@ -1,0 +1,32 @@
+{
+  "name": "firestore-ts-utils",
+  "version": "0.0.1",
+  "description": "Strong typed utility functions to update, add-to and read-from Firebase Firestore database.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thdk/firestore-ts-utils.git"
+  },
+  "keywords": [
+    "firebase",
+    "firestore",
+    "typescript",
+    "utils",
+    "thdk"
+  ],
+  "author": "Thomas Dekiere (thdk)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thdk/firestore-ts-utils/issues"
+  },
+  "homepage": "https://github.com/thdk/firestore-ts-utils#readme",
+  "devDependencies": {
+    "@firebase/app-types": "^0.3.4",
+    "@firebase/firestore": "^1.0.3"
+  }
+}
