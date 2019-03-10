@@ -22,7 +22,7 @@ export const addAsync = <T>(collectionRef: CollectionReference, data: Partial<T>
 export const getAsync = <T>(collectionRef: CollectionReference, id: string) => {
     return new Promise<T>((resolve, reject) => {
         collectionRef.doc(id).get()
-            .then((d: any) => d
+            .then((d: DocumentSnapshot) => d.data()
                 ? resolve(typeSnapshot<T>(d))
                 : reject()
             );
