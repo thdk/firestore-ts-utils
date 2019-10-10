@@ -1,6 +1,6 @@
 {
   "name": "firestore-ts-utils",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Strong typed utility functions to update, add-to and read-from Firebase Firestore database.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -27,6 +27,7 @@
   "homepage": "https://github.com/thdk/firestore-ts-utils#readme",
   "devDependencies": {
     "@firebase/app-types": "^0.3.4",
-    "@firebase/firestore-types": "^1.0.2"
+    "@firebase/firestore-types": "^1.0.2",
+    "typescript": "^3.6.4"
   }
 }
